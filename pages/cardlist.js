@@ -28,12 +28,12 @@ const Cardlist = ({data}) => {
 
     return (
         <div className='container border d-flex align-items-center flex-column'>
-            <h4 className='border container text-center m-2 p-2'>
-                <i className="fab fs-1 fa-shopify"></i>
+            <h4 className='border bg-success rounded container text-center m-2 p-2'>
+                <i className="fab text-light fs-1 fa-shopify"></i>
             </h4>
             <div className='container border m-2 d-flex flex-wrap'>
                 {data.map(item => (
-                    <div className='w-25 border border-warning p-2 m-2 rounded' key={item._id}>
+                    <div className='w-25 border  p-2 m-2 rounded' key={item._id}>
                         <h4 className='m-3'>{item.name}</h4>
                         <h5 className='m-2'>
                         <i className="fas mx-2 fs-4 fa-clipboard-list"></i>

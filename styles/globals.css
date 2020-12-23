@@ -23,3 +23,11 @@ a {
 i:hover {
     cursor: pointer;
 }
+
+.active {
+    background-color: blueviolet !important;
+}
+
+nav {
+    background-color: blueviolet !important;
+}
