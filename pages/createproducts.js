@@ -2,6 +2,7 @@ import { useState } from 'react'
 import fetch from 'isomorphic-unfetch'
 import { useRouter } from 'next/router';
 
+
 const CreateProd = () => {
 
     const [form, setform] = useState({name: '' , description: '' , inStock: null , category: ''})
